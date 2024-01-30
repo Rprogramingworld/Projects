@@ -1,0 +1,11 @@
+*{
+    background-color: rgb(116, 120, 116) ;
+}
+table tr, th, td, caption
+{
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+    
+} 

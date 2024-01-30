@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bg-changer</title>
+</head>
+<body>
+    <div>
+        <button onclick="change()">Click</button>
+
+     </div>
+
+     <script>
+        let color = ["red", "blue", "green", "pink", "purple", "orange", "magenta", "grey", "black", "yellow", "skyblue", "white", "brown"];
+
+        function change(){
+            console.log("button clicked");
+            const index = Math.floor(Math.random()*12);
+            document.body.style.backgroundColor= color[index];
+        }
+     </script>
+</body>
+</html>

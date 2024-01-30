@@ -1,0 +1,51 @@
+body
+{
+  background: linear-gradient(red, orange, yellow, lightyellow, green, brown);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+*
+{
+   box-sizing: 50px;
+}
+#h
+{
+    color: rgb(19, 1, 1);
+    font-size: 50px;
+    font-style: italic;
+    text-align: center;
+
+}
+.para
+{
+    color: black;
+    font-size: 10px;
+    font-weight: bolder;
+   
+}
+.word
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+img
+{
+    height: 100px;
+    weight: 200px;
+}
+#outer
+{
+    height: 300px;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.inner
+{
+    height:300px ;
+    width:100px ;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 20px ;
+    padding: 20px;
+}

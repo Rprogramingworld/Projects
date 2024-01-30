@@ -1,0 +1,17 @@
+body{
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+#library{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 20px;
+}
+.gm
+{
+    height: 400px;
+    width: 300px;
+    box-shadow: 5px 5px black ;
+}

@@ -1,0 +1,27 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/1395886334/photo/mathematical-formulas-on-blue-background-math-concept-3d-rendering.webp?b=1&s=170667a&w=0&k=20&c=f2ng24PMfbVzypgEo6bA4z6AJSxMOGGRnbkX4FJBGYM=");
+    background-repeat:round;
+   
+}
+#counter{
+    box-shadow: 5px 5px black;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://media.istockphoto.com/id/1202873191/photo/white-recycled-craft-paper-texture-as-background-grey-paper-texture-old-vintage-page-or.webp?b=1&s=170667a&w=0&k=20&c=5LPiw0UAHFYT6B5Ft1gTRHwxCr0U-Ds84MamkdGB5pQ=");
+}
+#count{
+    font-size: 48px;
+}
+button{
+    background-color: black;
+    padding: 10px;
+    color: white;
+    border-radius: 20px;
+}
