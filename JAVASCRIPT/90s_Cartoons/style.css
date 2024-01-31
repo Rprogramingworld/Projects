@@ -1,0 +1,38 @@
+body{
+    background-image: url("https://images.unsplash.com/photo-1619768470847-f7db55f5d72e?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8Y2F0b29uJTIwY2hhcmFjdGVyc3xlbnwwfHwwfHx8MA%3D%3D");
+}
+h1{
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+    background-color: #f3722c;
+    
+}
+
+#cartoon{
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 30px;
+    
+}
+.cartlist{
+    height: 440px;
+    width: 310px;
+    box-shadow: 5px 5px  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(123, 128, 130);
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    
+}
+
+.cartlist img:hover
+{
+
+    box-shadow: 5px 7px 8px ;
+}
+
